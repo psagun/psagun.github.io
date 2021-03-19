@@ -245,10 +245,12 @@ section .title::after{
 }
 .about .about-content .right .text span{
     color: rgb(96, 62, 136);
+
 }
 .about .about-content .right p{
     text-align: justify;
 }
+
 .about .about-content .right a{
     display: inline-block;
     background: rgb(96, 62, 136);

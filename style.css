@@ -391,7 +391,7 @@ section .title::after{
 
 /* projects section styling */
 .projects .title::after{
-    content: "who with me";
+    content: "projects I worked on";
 }
 .projects .carousel .card{
     background: #222;
@@ -423,8 +423,8 @@ section .title::after{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid rgb(216, 136, 45);
+    border-radius: 10%;
+    border: 1px solid rgb(216, 136, 45);
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img{
@@ -435,11 +435,11 @@ section .title::after{
     margin-top: 20px;
 }
 .owl-dot{
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     margin: 0 5px;
     outline: none!important;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 2px solid rgb(216, 136, 45)!important;
     transition: all 0.3s ease;
 }

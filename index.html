@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Sagun's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -19,7 +19,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><img src="images/profile-1.jpeg" alt="" ><a href="#"> Portfo<span>lio.</span></a></div>
+            <div class="logo"><img src="images/profile-1.jpeg" alt="" ><a href="#"> S<span>P.</span></a></div>
             <!--<div class="logo"><a href="#">Portfo<span>lio.</span></a></div>-->
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
@@ -27,7 +27,7 @@
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#projects" class="menu-btn">Projects</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#work" class="menu-btn">Work</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -37,17 +37,31 @@
 
     <!-- home section start -->
     <section class="home" id="home">
-      <div class="max-width">
-          <div class="row">
-            <div class="home-content">
-                <div class="text-1">Hello, My name is</div>
-                <div class="text-2">Sagun Pandey</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#about">More..</a>
-            </div>
-          </div>
-      </div>
-    </section>
+        <!--       <div class="max-width">
+                  <div class="row">
+                    <div class="home-content">
+                        <div class="text-1">Hello, My name is</div>
+                        <div class="text-2">Sagun Pandey</div>
+                        <div class="text-3">And I'm a <span class="typing"></span></div>
+                        <a href="#about">More..</a>
+                    </div>
+                  </div> -->
+              </div>
+            </section>
+        
+            <!--home text start-->
+            <section class="homet" id="homet">
+                <div class="max-width">
+                    <div class="row">
+                      <div class="homet-content">
+                          <div class="text-1">Hello, My name is</div>
+                          <div class="text-2">Sagun Pandey</div>
+                          <div class="text-3">And I'm a <span class="typing"></span></div>
+                          <a href="#about">More..</a>
+                      </div>
+                    </div>
+                </div>
+              </section>
 
     <!-- about section start -->
     <section class="about" id="about">
@@ -58,9 +72,9 @@
                     <img src="images/profile-1.jpeg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">Hey, I'm Sagun and I'm a <span class="typing-2"></span></div>
-                    <h3 style="color: rgb(96, 62, 136)">The City College of New York (Expected)May 2021</h3>
-                    <p>Senior in Computer Science with excellent leadership and analytical problem solving 
+                    <div class="text"><span class="typing-2"></span></div>
+                    <h3 style="color: rgb(96, 62, 136)">The City College of New York - May 2021</h3>
+                    <p>Recent Computer Science Graduate with excellent leadership and analytical problem solving 
                         skills seeks a full time Entry level position in software Engineering. Proficient in Java and Python , with project
                          work including building an ecommerce website. Active hackathon participant interested in collaborating on web 
                          design projects.</p>
@@ -70,36 +84,40 @@
         </div>
     </section>
 
-    <!-- services section start -->
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-laptop"></i>
-                        <div class="text">Web Development</div>
-                        <p>Certified Mobile App Design</p>
-                    </div>
+   <!-- services section start -->
+   <section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-laptop"></i>
+                    <div class="text">Frontend</div>
+                    <p>Angular/ React</p>
+                    <p>Figma Prototyping</p>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Data Science</div>
-                        <p>Worked with Street Eazy Data</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Hardware</div>
-                        <p>Designed a single CPU.</p>
-                    </div>
-                </div>
-               </div>
             </div>
+            <div class="card">
+                <div class="box">
+                    <!-- <i class="fas fa-chart-line"></i> -->
+                    <i class="fas fa-cogs"></i>
+                    <div class="text">Backend</div>
+                    <p>Springboot</p>
+                    <p>Springboot services</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-database"></i>
+                    <div class="text">Database</div>
+                    <p>Relational Database</p>
+                    <p>Postgresql</p>
+                </div>
+            </div>
+           </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- skills section start -->
     <section class="skills" id="skills">
@@ -155,7 +173,7 @@
     <!-- projects section start -->
     <section class="projects" id="projects">
         <div class="max-width">
-            <h2 class="title">My Projects</h2>
+            <h2 class="title">My projects</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
@@ -203,11 +221,11 @@
         </div>
     </section>
 
-    <!-- contact section start -->
-    <section class="contact" id="contact">
+    <!-- work section start -->
+    <section class="work" id="work">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
+            <h2 class="title">My experiences</h2>
+            <!-- <div class="work-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
                     <p>You can also get connected and stay in touch with me through other social sites.</p>
@@ -230,14 +248,14 @@
                             <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fas fa-envelope"></i></a>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">sagun.pandey21@gmail.com</div>
+                                <div class="sub-title">spandeyccny@gmail.com</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form class="contact-form" action="#" method="POST">
+                    <form class="work-form" action="#" method="POST">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" class="fullname" placeholder="Name">
@@ -257,15 +275,119 @@
                         </div>
                     </form>
                 </div>
+            </div> -->
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <a href="https://github.com/sagunpandey123/Docunex-FullText-Search-Interface" target="_blank"><img src="images/profile-3.jpg" alt=""></a>
+                        <div class="text">Docunex</div>
+                        <p>It was built for DEP employees who has access to the
+                            files indexed in the Docunex. User can successfully search the files and can view up to 200
+                            characters of the content just like in the google search. When they successfully finds the file, they
+                            can click the file, download and open it.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-5.jpg" alt="">
+                        <div class="text">Violation App</div>
+                        <p>Violation app helps DEP Wastewater Treatment Inspector to add a new violation charge and other requirements electronically.
+                            It helps inspector to collect data of the summon. Also, they can find out if the summon has any previous violation charges.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- footer section start -->
+<!-- contact section start -->
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p>You can also get connected and stay in touch with me through other social sites.</p>
+                <div class="icons">
+                    <div class="row">
+                        <a href="https://www.linkedin.com/in/sagun0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <div class="info">
+                            <div class="head">LinkedIn</div>
+                            <div class="sub-title">Sagun Pandey</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="https://github.com/sagunpandey123" target="_blank"><i class="fab fa-github"></i></a>
+                        <div class="info">
+                            <div class="head">GitHub</div>
+                            <div class="sub-title">sagunpandey123</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fas fa-envelope"></i></a>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">sagun.pandey21@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Message me</div>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" class="fullname" placeholder="Name">
+                        </div>
+                        <div class="field email">
+                            <input type="text" class="email-input" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="subject" placeholder="Subject">
+                    </div>
+                    <div class="field textarea">
+                        <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                    </div>
+                    <div class="button-area">
+                        <button class="send-msg" type="submit" name="send">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- footer section start 
     <footer>
+        <section class="footer" id="footer">
+            <div class="column left">
+            <div class="row">
+                <a href="https://www.linkedin.com/in/sagun0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <div class="info">
+                    <div class="head">LinkedIn</div>
+                    <div class="sub-title">Sagun Pandey</div>
+                </div>
+            </div>
+            <div class="column right">
+                <a href="https://github.com/sagunpandey123" target="_blank"><i class="fab fa-github"></i></a>
+                <div class="info">
+                    <div class="head">GitHub</div>
+                    <div class="sub-title">sagunpandey123</div>
+                </div>
+            </div>
+        </div>
+        </div>
+    <span>Created By <a href="https://sagunpandey123.github.io/">Sagun Pandey</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+</footer>-->
+
+
+  <footer>
         <span>Created By <a href="https://sagunpandey123.github.io/">Sagun Pandey</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
